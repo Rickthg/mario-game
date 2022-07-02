@@ -1,10 +1,9 @@
-
-
 .mario {
     width:130px;
     position: absolute;
     bottom: 0%;
 }
+
 .game-board {
     width: 80%;
     height: 500px;
@@ -13,13 +12,20 @@
     position: relative;
     overflow: hidden;
 }
-.pipe {
+
+.turtle {
     position: absolute;
     bottom: 0;
-    width:80px;
-    animation: pipe-animation 2s infinite linear;
+    width:100px;
+    animation:turtle-animation 2s infinite linear;
 }
-@keyframes pipe-animation {
+
+.jump {
+    animation: jump 500ms ease-out;
+
+}
+
+@keyframes turtle-animation {
     from {
         right: -80px;
     }
@@ -27,4 +33,25 @@
     to {
         right: 100%;
     } 
+}
+@keyframes jump {
+ from {
+    bottom: 0;
+ }
+
+ 40% {
+    bottom: 35%;
+}
+
+50% {
+    bottom: 35%;
+}
+
+60% {
+    bottom: 35%;
+}
+
+ to {
+    bottom: 0;
+ }
 }
