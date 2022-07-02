@@ -16,7 +16,7 @@
 .turtle {
     position: absolute;
     bottom: 0;
-    width:100px;
+    width:120px;
     animation:turtle-animation 2s infinite linear;
 }
 
