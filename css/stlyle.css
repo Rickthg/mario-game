@@ -17,7 +17,7 @@
     position: absolute;
     bottom: 0;
     width:120px;
-    animation:turtle-animation 2s infinite linear;
+    animation:turtle-animation 1.5s infinite linear;
 }
 
 .jump {
